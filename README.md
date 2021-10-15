@@ -30,3 +30,15 @@ An opensource module which will help angular developers to use this as a "List o
 ```bash
     ng serve beautiful-select-app
 ```
+
+## Generating a library module and a component
+```bash
+    ng generate module beautiful-list --project=beautiful-select
+    ng generate component beautiful-list --project=beautiful-select --style=scss
+```
+
+## Neccessary todos
+```bash
+    1. Add newly created module to library modules imports, exports const list array
+    2. Add export statement in public-api.ts file for that newly created module and component
+```
