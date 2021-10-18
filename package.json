@@ -1,5 +1,6 @@
 {
   "name": "ngx-beautiful-select-workspace",
+  "description": "An opensource library which will help angular developers to use this as a 'List of Categories' with image and name, end user can select, unselect one or many items from the scrollable list. created with ❤️ using Angular Library Concept.",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -36,5 +37,11 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^12.1.0",
     "typescript": "~4.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammadawaisshaikh/ngx-beautiful-select"
+  },
+  "keywords": ["beautiful list", "angular library", "list of categories npm", "list npm", "muhammadawaisshaikh", "developerorium"],
+  "author": "Muhammad Awais Shaikh"
 }
