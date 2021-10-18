@@ -1,6 +1,9 @@
 # ngx-beautiful-select
 An opensource module which will help angular developers to use this as a "List of Categories" with image and name, end user can select, unselect one or many items from the scrollable list. created with ❤️ using Angular Library Concept.
 
+## Library in Action
+<img src="https://i.ibb.co/2gftvMD/beautiful-list.png" alt="Library in Action" style="width: 100%" />
+
 ## Reference 
 > https://angular.io/guide/creating-libraries
 > https://medium.com/@prajramesh93/create-your-angular-library-f2cf273fd8a5
