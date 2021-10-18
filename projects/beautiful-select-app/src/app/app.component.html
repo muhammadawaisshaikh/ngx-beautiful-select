@@ -1,3 +1,9 @@
-<ngx-beautiful-select></ngx-beautiful-select>
+<!-- <ngx-beautiful-select></ngx-beautiful-select> -->
 
-<ngx-beautiful-list></ngx-beautiful-list>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-8 col-12">
+            <ngx-beautiful-list [data]="data" [heading]="'Car Categories'" (selectCategory)="getSelected($event)"></ngx-beautiful-list>
+        </div>
+    </div>
+</div>

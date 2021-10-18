@@ -1,0 +1,48 @@
+@import '../../../assets/scss/style.scss';
+
+.heading {
+    @include typography($fontSize: 17px, $fontWeight: 500, $color: #000000, $padding: 0);
+}
+
+.scrollmenu {
+    @include scroll-menu($width: 28%, $padding: 14px, $background: white, $color: #000000);
+    .image-container {
+        background-color: #ececec;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: relative;
+        display: block;
+        margin: auto;
+        img {
+            &.small {
+                position: relative;
+                top: 15px;
+                width: 70%;
+            }
+            &.large {
+                width: 100%;
+                padding-top: 25px;
+            }
+        }
+    }
+    p {
+        font-size: 14px;
+        padding: 5px 0 0 0;
+    }
+}
+
+.check {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 18px;
+    color: #28a745;
+    visibility: hidden;
+}
+
+.selected {
+    .check {
+        visibility: visible;
+    }
+}

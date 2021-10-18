@@ -1,0 +1,22 @@
+@mixin scroll-menu($width, $padding, $background, $color) {
+    background-color: $background;
+        overflow: auto;
+        white-space: nowrap;
+        .item {
+            display: inline-block;
+            color: $color;
+            text-align: center;
+            padding: $padding;
+            width: $width;
+            &.active {
+                border-bottom: 3px solid $color;
+            }
+        }
+}
+
+@mixin typography($fontSize, $fontWeight, $color, $padding) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $color;
+    padding: $padding;
+}
